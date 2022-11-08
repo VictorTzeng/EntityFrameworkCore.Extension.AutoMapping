@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.Extensi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.EntityFrameworkCore.Extension.AutoMapping", "src\Abp.EntityFrameworkCore.Extension.AutoMapping\Abp.EntityFrameworkCore.Extension.AutoMapping.csproj", "{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpVNext.EntityFrameworkCore.Extension.AutoMapping", "AbpVNext.EntityFrameworkCore.Extension.AutoMapping\AbpVNext.EntityFrameworkCore.Extension.AutoMapping.csproj", "{91744469-07FC-472A-8636-45D014C1CCCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpVNext.EntityFrameworkCore.Extension.AutoMapping", "src\AbpVNext.EntityFrameworkCore.Extension.AutoMapping\AbpVNext.EntityFrameworkCore.Extension.AutoMapping.csproj", "{91744469-07FC-472A-8636-45D014C1CCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

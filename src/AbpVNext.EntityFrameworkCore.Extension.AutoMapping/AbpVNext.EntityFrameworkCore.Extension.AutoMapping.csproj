@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\EntityFrameworkCore.Extension.AutoMapping\EntityFrameworkCore.Extension.AutoMapping.csproj" />
+    <ProjectReference Include="..\EntityFrameworkCore.Extension.AutoMapping\EntityFrameworkCore.Extension.AutoMapping.csproj" />
   </ItemGroup>
 
 </Project>
