@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.Extension.AutoMapping", "src\EntityFrameworkCore.Extension.AutoMapping\EntityFrameworkCore.Extension.AutoMapping.csproj", "{35471C76-6FDC-4EBF-A567-9B1C48A0405D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.Extension.AutoMapping", "src\EntityFrameworkCore.Extension.AutoMapping\EntityFrameworkCore.Extension.AutoMapping.csproj", "{35471C76-6FDC-4EBF-A567-9B1C48A0405D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.EntityFrameworkCore.Extension.AutoMapping", "src\Abp.EntityFrameworkCore.Extension.AutoMapping\Abp.EntityFrameworkCore.Extension.AutoMapping.csproj", "{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbpVNext.EntityFrameworkCore.Extension.AutoMapping", "AbpVNext.EntityFrameworkCore.Extension.AutoMapping\AbpVNext.EntityFrameworkCore.Extension.AutoMapping.csproj", "{91744469-07FC-472A-8636-45D014C1CCCA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{35471C76-6FDC-4EBF-A567-9B1C48A0405D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35471C76-6FDC-4EBF-A567-9B1C48A0405D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35471C76-6FDC-4EBF-A567-9B1C48A0405D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2CDD2B7-7418-4432-9C7D-6A5CB79A247B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91744469-07FC-472A-8636-45D014C1CCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91744469-07FC-472A-8636-45D014C1CCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91744469-07FC-472A-8636-45D014C1CCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91744469-07FC-472A-8636-45D014C1CCCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
