@@ -22,7 +22,7 @@ public class XmateDbContext:DbContext
 
 ### 在Abp中实现自动注入实体类对应的Repository
 ```
-using Abp.EntityFrameworkCore.Extension.AutoMapping;
+using EntityFrameworkCore.Extension.AutoMapping.Abp;
 ... //此处省略其它代码
 public class XmateModule:AbpModule
 {
@@ -40,7 +40,7 @@ public class XmateModule:AbpModule
 
 ### 在Abp VNext中实现自动注入实体类对应的Repository
 ```
-using AbpVNext.EntityFrameworkCore.Extension.AutoMapping;
+using EntityFrameworkCore.Extension.AutoMapping.AbpVNext;
 ... //此处省略其它代码
 public class XmateModule:AbpModule
 {
