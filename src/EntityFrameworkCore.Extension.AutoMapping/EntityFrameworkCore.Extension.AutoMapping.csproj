@@ -1,9 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net7.0;</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>victor.tzeng</Authors>
+    <NeutralLanguage></NeutralLanguage>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>victor.tzeng@outlook.com</Copyright>
+    <PackageProjectUrl>https://github.com/VictorTzeng/EntityFrameworkCore.Extension.AutoMapping</PackageProjectUrl>
+    <Description>一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)</Description>
+    <PackageReleaseNotes>一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

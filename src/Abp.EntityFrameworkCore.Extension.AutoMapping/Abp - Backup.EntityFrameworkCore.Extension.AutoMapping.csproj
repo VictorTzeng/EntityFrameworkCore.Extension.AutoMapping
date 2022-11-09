@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;net7.0;</TargetFrameworks>
@@ -14,14 +14,13 @@
     <PackageProjectUrl>https://github.com/VictorTzeng/EntityFrameworkCore.Extension.AutoMapping</PackageProjectUrl>
     <Description>一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)</Description>
     <PackageReleaseNotes>一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)</PackageReleaseNotes>
-    <Product>EntityFrameworkCore.Extension.AutoMapping.AbpVNext</Product>
-    <PackageId>EntityFrameworkCore.Extension.AutoMapping.AbpVNext</PackageId>
+    <Product>EntityFrameworkCore.Extension.AutoMapping.Abp</Product>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Abp" Version="7.4.0" />
+    <PackageReference Include="Abp.EntityFrameworkCore" Version="7.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
-    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="6.0.1" />
-    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="6.0.1" />
   </ItemGroup>
 
   <ItemGroup>
