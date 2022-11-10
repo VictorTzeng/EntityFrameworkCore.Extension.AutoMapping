@@ -1,5 +1,5 @@
 # EntityFrameworkCore.Extension.AutoMapping
-## 一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)
+## 一款EntityFrameworkCore自动映射数据实体类到数据库上下文的扩看类，不用手撸DbSet，并且支持abp和abp vnext的自动注入实体对应的仓储类(Repository)
 
 ## 如何使用（How to use）
 ### 在DbContext.cs中重写OnModelCreating方法：
